@@ -5,6 +5,7 @@ Description: QuickTech IT maintain standard quality for Website and Creative Des
 */
 
 import 'dart:async';
+import 'dart:developer';
 import 'dart:io';
 
 import 'package:courier/GlobalUtils/UI_Colors.dart';
@@ -41,7 +42,6 @@ class _QuickTechIT_ParcelDetailsState extends State<QuickTechIT_ParcelDetails> {
 
   void initState() {
     getData();
-
     Timer.periodic(Duration(seconds: 5), (_) => getData());
 
     super.initState();
@@ -386,7 +386,7 @@ class _QuickTechIT_ParcelDetailsState extends State<QuickTechIT_ParcelDetails> {
                                 print(parcel.trackingCode);
                                 // Get.toNamed(
                                 //     '/merchant/parcel/track/${parcel.trackingCode}');
-                                Get.to(TrackParcelDetailsView(
+                                Get.to(()=>TrackParcelDetailsView(
                                   trackParcelId: parcel.trackingCode,
                                 ));
                               },

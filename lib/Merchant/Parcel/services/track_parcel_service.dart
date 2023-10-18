@@ -11,16 +11,17 @@ class TrackParcelService {
     final pref = GetStorage();
 
     var response = await http.get(
-      Uri.parse("http://foxs.com.bd/api/parcel/track/$trackId"),
-      headers: {
-        'id': "155",
-      },
+      Uri.parse("https://mrdelivery.com.bd/api/parcel/track/$trackId"),
+      // headers: {
+      //   'id': "155",
+      // },
     );
 
     if (response.statusCode == 200) {
       log(response.body);
       var data = jsonDecode(response.body);
       if (data['trackInfos'] != null) {
+        log("Percel details data: ${response.body}");
         return trackModelFromJson(response.body);
       }
     } else {

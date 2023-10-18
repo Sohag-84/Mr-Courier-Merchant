@@ -1,6 +1,7 @@
+import 'dart:developer';
+
 import 'package:courier/GlobalUtils/UI_Colors.dart';
 import 'package:courier/Merchant/Parcel/model/track_model.dart';
-// import 'package:courier/Merchant/Parcel/model/track_parcel_notes_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
@@ -18,6 +19,11 @@ class TrackParcelDetailsView extends StatefulWidget {
 }
 
 class _TrackParcelDetailsViewState extends State<TrackParcelDetailsView> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -89,8 +95,10 @@ class _TrackParcelDetailsViewState extends State<TrackParcelDetailsView> {
                   ListView.builder(
                     shrinkWrap: true,
                     primary: false,
+                    //itemCount: 1,
                     itemCount: snapshot.data.trackInfos.length,
                     itemBuilder: (BuildContext context, int index) {
+                      //return Text("data");
                       return trackItem(snapshot.data.trackInfos[index]);
                     },
                   ),
@@ -358,6 +366,10 @@ class _TrackParcelDetailsViewState extends State<TrackParcelDetailsView> {
                   const SizedBox(
                     height: 10,
                   ),
+                  if (parcel.deliverymanName != null)
+                    const SizedBox(
+                      height: 10,
+                    ),
                   Text(
                     "Deliveryman",
                     style: TextStyle(
@@ -368,8 +380,12 @@ class _TrackParcelDetailsViewState extends State<TrackParcelDetailsView> {
                   const SizedBox(
                     height: 2,
                   ),
+                  if (parcel.deliverymanName != null)
+                    const SizedBox(
+                      height: 10,
+                    ),
                   Text(
-                    parcel.deliverymanName,
+                    parcel.deliverymanName ?? "Not assigned",
                     style: TextStyle(
                         fontSize: ResponsiveFlutter.of(context).fontSize(2.5)),
                     textAlign: TextAlign.justify,
@@ -388,7 +404,7 @@ class _TrackParcelDetailsViewState extends State<TrackParcelDetailsView> {
                     height: 2,
                   ),
                   Text(
-                    parcel.deliverymanPhone,
+                    parcel.deliverymanPhone ?? "Not assigned",
                     style: TextStyle(
                         fontSize: ResponsiveFlutter.of(context).fontSize(2.5)),
                     textAlign: TextAlign.justify,

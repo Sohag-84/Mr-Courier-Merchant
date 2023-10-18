@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\sohag\\project\\foxs_delivery-20230909T073423Z-001\\foxs_delivery\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "G:\\sohag\\project\\foxs_delivery-20230909T073423Z-001\\foxs_delivery\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
