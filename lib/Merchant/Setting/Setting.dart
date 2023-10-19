@@ -74,7 +74,7 @@ class _QuickTechIT_SettingState extends State<QuickTechIT_Setting> {
         userData = value;
 
         phoneController.text =
-            userData.phoneNumber == null ? "" : "0${userData.phoneNumber}";
+            userData.phoneNumber == null ? "" : "${userData.phoneNumber}";
         pickupAddressController.text =
             userData.pickLocation == null ? "" : userData.pickLocation;
         bankNameController.text =

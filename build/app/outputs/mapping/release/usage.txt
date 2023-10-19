@@ -2060,8 +2060,8 @@ com.google.common.collect.ImmutableSet
 com.google.common.cache.CacheBuilder$3
 com.google.common.base.FinalizableReferenceQueue$FinalizerLoader
 com.google.common.reflect.Types$GenericArrayTypeImpl
-kotlinx.coroutines.AwaitAll$AwaitAllNode
 kotlinx.coroutines.flow.SharedFlowImpl$WhenMappings
+kotlinx.coroutines.AwaitAll$AwaitAllNode
 javax.annotation.Nonnegative$Checker
 javax.annotation.WillClose
 kotlinx.coroutines.flow.FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$1
@@ -7629,8 +7629,8 @@ android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$2
 androidx.core.app.NotificationCompat$DecoratedCustomViewStyle
 com.google.common.util.concurrent.AsyncCallable
 com.google.common.collect.CollectPreconditions
-com.quicktech.foxs_delivery.R$id
 androidx.viewpager.R$color
+com.quicktech.foxs_delivery.R$id
 io.flutter.plugins.urllauncher.UrlLauncher:
     private static final java.lang.String TAG
 com.quicktech.foxs_delivery.R$xml

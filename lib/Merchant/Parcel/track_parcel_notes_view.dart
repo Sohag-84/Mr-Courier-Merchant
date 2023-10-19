@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:courier/GlobalUtils/UI_Colors.dart';
 import 'package:courier/Merchant/Parcel/model/track_model.dart';
 import 'package:flutter/material.dart';

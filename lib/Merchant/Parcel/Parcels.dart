@@ -165,7 +165,8 @@ class _QuickTechIT_ParcelsState extends State<QuickTechIT_Parcels> {
                                                   //   return a.createdAt
                                                   //       .compareTo(b.createdAt);
                                                   // });
-                                                  searchParcelsByDate();
+                                                  //searchParcelsByDate();
+                                                  showDateRange();
                                                 });
                                               },
                                               child: Text(
@@ -247,38 +248,44 @@ class _QuickTechIT_ParcelsState extends State<QuickTechIT_Parcels> {
                               SizedBox(
                                 height: 10,
                               ),
-                              searchedParcels.length == 0
-                                  ? ListView.builder(
-                                      // separatorBuilder: (context, index) {
-                                      //   return Divider(
-                                      //     height: 1,
-                                      //   );
-                                      // },
-                                      shrinkWrap: true,
-                                      physics: NeverScrollableScrollPhysics(),
-                                      itemCount: parcels.length,
-                                      itemBuilder:
-                                          (BuildContext context, int index) {
-                                        startFrom = parcels.length;
-                                        return parcelItem(parcels[index]);
-                                      },
-                                    )
-                                  : ListView.builder(
-                                      // separatorBuilder: (context, index) {
-                                      //   return Divider(
-                                      //     height: 1,
-                                      //   );
-                                      // },
-                                      shrinkWrap: true,
-                                      physics: NeverScrollableScrollPhysics(),
-                                      itemCount: searchedParcels.length,
-                                      itemBuilder:
-                                          (BuildContext context, int index) {
-                                        // startFrom = parcels.length;
-                                        return parcelItem(
-                                            searchedParcels[index]);
-                                      },
-                                    ),
+                              // searchedParcels.length == 0
+                              //     ? ListView.builder(
+                              //         shrinkWrap: true,
+                              //         physics: NeverScrollableScrollPhysics(),
+                              //         itemCount: parcels.length,
+                              //         itemBuilder:
+                              //             (BuildContext context, int index) {
+                              //           startFrom = parcels.length;
+                              //           return parcelItem(parcels[index]);
+                              //         },
+                              //       )
+                              //     : ListView.builder(
+                              //         shrinkWrap: true,
+                              //         physics: NeverScrollableScrollPhysics(),
+                              //         itemCount: searchedParcels.length,
+                              //         itemBuilder:
+                              //             (BuildContext context, int index) {
+                              //           // startFrom = parcels.length;
+                              //           return parcelItem(
+                              //             searchedParcels[index],
+                              //           );
+                              //         },
+                              //       ),
+                              ListView.builder(
+                                shrinkWrap: true,
+                                physics: NeverScrollableScrollPhysics(),
+                                itemCount: searchedParcels.isNotEmpty
+                                    ? searchedParcels.length
+                                    : parcels.length,
+                                itemBuilder: (BuildContext context, int index) {
+                                  startFrom = searchedParcels.isNotEmpty
+                                      ? searchedParcels.length
+                                      : parcels.length;
+                                  return parcelItem(searchedParcels.isNotEmpty
+                                      ? searchedParcels[index]
+                                      : parcels[index]);
+                                },
+                              ),
                               if (isLoading)
                                 Center(
                                   child: CircularProgressIndicator(),
@@ -362,29 +369,95 @@ class _QuickTechIT_ParcelsState extends State<QuickTechIT_Parcels> {
         ));
   }
 
-  searchParcelsByDate() async {
-    var newDateRange = await showDateRangePicker(
-      context: context,
-      firstDate: DateTime(1950),
-      lastDate: DateTime.now(),
-    );
-    log(newDateRange.toString());
+  ///------- old code date wise search start---------///
+  // searchParcelsByDate() async {
+  //   var newDateRange = await showDateRangePicker(
+  //     context: context,
+  //     firstDate: DateTime(1950),
+  //     lastDate: DateTime.now(),
+  //   );
+  //   log(newDateRange.toString());
+  //   searchedParcels.clear();
+  //   setState(() {});
+  //   for (var i = 0; i < parcels.length; i++) {
+  //     if (parcels[i].createdAt != null || parcels[i].createdAt != "") {
+  //       if (DateTime.parse(parcels[i].createdAt.toString()).isAfter(
+  //             newDateRange.start.subtract(Duration(days: 1)),
+  //           ) &&
+  //           DateTime.parse(parcels[i].createdAt.toString()).isBefore(
+  //             newDateRange.end.add(Duration(days: 1)),
+  //           )) {
+  //         log("parcel found");
+  //         searchedParcels.add(parcels[i]);
+  //       } else {
+  //         setState(() {
+  //           searchedParcels.clear();
+  //         });
+  //         log("parcel not found");
+  //       }
+  //     }
+  //   }
+  //
+  //   setState(() {});
+  // }
+
+  // Add this function to filter parcels by date
+  ///------- old code date wise search end---------///
+
+
+
+  ///------- old code date wise search start---------///
+
+  /// search parcel particular date
+  void searchParcelsByDate(DateTime selectedDate) {
     searchedParcels.clear();
-    setState(() {});
     for (var i = 0; i < parcels.length; i++) {
-      if (parcels[i].createdAt != null || parcels[i].createdAt != "") {
-        if (DateTime.parse(parcels[i].createdAt.toString()).isAfter(
-              newDateRange.start.subtract(Duration(days: 1)),
-            ) &&
-            DateTime.parse(parcels[i].createdAt.toString()).isBefore(
-              newDateRange.end.add(Duration(days: 1)),
-            )) {
-          log("parcel found");
+      if (parcels[i].createdAt != null && parcels[i].createdAt.isNotEmpty) {
+        DateTime parcelDate = DateTime.parse(parcels[i].createdAt);
+        if (parcelDate.year == selectedDate.year &&
+            parcelDate.month == selectedDate.month &&
+            parcelDate.day == selectedDate.day) {
           searchedParcels.add(parcels[i]);
         }
       }
     }
-
     setState(() {});
   }
+
+  /// search parcel date range
+  void searchParcelsByDateRange(DateTime startDate, DateTime endDate) {
+    searchedParcels.clear();
+    for (var i = 0; i < parcels.length; i++) {
+      if (parcels[i].createdAt != null && parcels[i].createdAt.isNotEmpty) {
+        DateTime parcelDate = DateTime.parse(parcels[i].createdAt);
+        if (parcelDate.isAfter(startDate.subtract(Duration(days: 1))) &&
+            parcelDate.isBefore(endDate.add(Duration(days: 1)))) {
+          searchedParcels.add(parcels[i]);
+        }
+      }
+    }
+    setState(() {});
+  }
+
+  ///for showing date range
+  Future<void> showDateRange() async {
+    DateTimeRange picked = await showDateRangePicker(
+      context: context,
+      firstDate: DateTime(1950),
+      lastDate: DateTime.now(),
+    );
+
+    if (picked != null) {
+      DateTime startDate = picked.start;
+      DateTime endDate = picked.end;
+
+      if (startDate == endDate) {
+        searchParcelsByDate(startDate);
+      } else {
+        searchParcelsByDateRange(startDate, endDate);
+      }
+    }
+  }
+
+///------- old code date wise search start---------///
 }
