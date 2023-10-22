@@ -263,10 +263,9 @@ class MerchantNetwork {
     };
     log(data.toString());
     var jsonData;
-    // var response = await http
-    //     .post(Uri.parse(rootUrl + "api/merchant/otpverify"), body: data);
+
     var response = await http.post(
-      Uri.parse("https://foxs.com.bd/api/merchant/otpverify"),
+      Uri.parse(rootUrl+"api/merchant/otpverify"),
       body: data,
     );
 

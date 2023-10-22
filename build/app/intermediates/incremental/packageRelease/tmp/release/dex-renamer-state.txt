@@ -1,4 +1,4 @@
-#Wed Oct 18 18:00:12 BDT 2023
+#Thu Oct 19 11:24:11 BDT 2023
 base.0=G\:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

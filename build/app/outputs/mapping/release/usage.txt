@@ -7629,8 +7629,8 @@ android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$2
 androidx.core.app.NotificationCompat$DecoratedCustomViewStyle
 com.google.common.util.concurrent.AsyncCallable
 com.google.common.collect.CollectPreconditions
-androidx.viewpager.R$color
 com.quicktech.foxs_delivery.R$id
+androidx.viewpager.R$color
 io.flutter.plugins.urllauncher.UrlLauncher:
     private static final java.lang.String TAG
 com.quicktech.foxs_delivery.R$xml
