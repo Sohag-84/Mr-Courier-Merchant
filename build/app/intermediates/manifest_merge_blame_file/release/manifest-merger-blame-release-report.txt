@@ -24,8 +24,8 @@
 16-->[androidx.core:core:1.6.0] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
 17        android:icon="@mipmap/launcher_icon"
 17-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:7:9-45
-18        android:label="Marchant" >
-18-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:5:9-33
+18        android:label="Mr Delivery" >
+18-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:5:9-36
 19        <activity
 19-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:8:9-28:20
 20            android:name="com.quicktech.foxs_delivery.MainActivity"

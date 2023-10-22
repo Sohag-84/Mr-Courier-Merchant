@@ -2,7 +2,7 @@
     package="com.quicktech.foxs_delivery">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="Marchant"
+        android:label="Mr Delivery"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
