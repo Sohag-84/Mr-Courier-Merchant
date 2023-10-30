@@ -164,8 +164,10 @@ class _VerifyOtpForLoginState extends State<VerifyOtpForLogin> {
                     decoration: CustomDecoration().buttonDecoration(),
                     child: TextButton(
                       style: ButtonStyle(
-                          padding:
-                              MaterialStateProperty.all(EdgeInsets.all(8.0))),
+                        padding: MaterialStateProperty.all(
+                          EdgeInsets.all(8.0),
+                        ),
+                      ),
                       onPressed: () {
                         if (pinPutController.text != null) {
                           String code = pinPutController.text.trim();

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.quicktech.foxs_delivery"
+    package="com.quicktech.mr_delivery"
     android:versionCode="1"
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="21"
-        android:targetSdkVersion="31" />
+        android:minSdkVersion="26"
+        android:targetSdkVersion="34" />
     <!--
          Flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
@@ -18,10 +18,11 @@
         android:name="android.app.Application"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
+        android:extractNativeLibs="false"
         android:icon="@mipmap/launcher_icon"
         android:label="Mr Delivery" >
         <activity
-            android:name="com.quicktech.foxs_delivery.MainActivity"
+            android:name="com.quicktech.mr_delivery.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"
@@ -55,7 +56,7 @@
 
         <provider
             android:name="com.crazecoder.openfile.FileProvider"
-            android:authorities="com.quicktech.foxs_delivery.fileProvider.com.crazecoder.openfile"
+            android:authorities="com.quicktech.mr_delivery.fileProvider.com.crazecoder.openfile"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -70,7 +71,7 @@
 
         <provider
             android:name="net.nfet.flutter.printing.PrintFileProvider"
-            android:authorities="com.quicktech.foxs_delivery.flutter.printing"
+            android:authorities="com.quicktech.mr_delivery.flutter.printing"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

@@ -8,20 +8,20 @@
         "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_applogo.png.flat",
-        "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\applogo.png"
-    },
-    {
         "merged": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_launcher_icon.png.flat",
-        "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\mipmap-xhdpi\\launcher_icon.png"
+        "merged": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_applogo.png.flat",
+        "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\applogo.png"
     },
     {
         "merged": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\android\\app\\src\\main\\res\\mipmap-xhdpi\\launcher_icon.png"
     },
     {
         "merged": "G:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\res\\merged\\debug\\drawable-v21_launch_background.xml.flat",

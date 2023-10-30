@@ -1,4 +1,4 @@
-package com.quicktech.foxs_delivery
+package com.quicktech.mr_delivery
 
 import io.flutter.embedding.android.FlutterActivity
 

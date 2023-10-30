@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.quicktech.foxs_delivery">
+    package="com.quicktech.mr_delivery">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="Mr Delivery"

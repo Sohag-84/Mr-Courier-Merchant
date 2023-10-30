@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.quicktech.foxs_delivery",
+  "applicationId": "com.quicktech.mr_delivery",
   "variantName": "debug",
   "elements": [
     {
