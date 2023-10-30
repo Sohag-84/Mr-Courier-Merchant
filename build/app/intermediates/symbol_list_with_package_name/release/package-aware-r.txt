@@ -1,4 +1,4 @@
-com.quicktech.foxs_delivery
+com.quicktech.mr_delivery
 attr activityAction
 attr activityName
 attr alpha

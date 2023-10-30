@@ -1,4 +1,0 @@
-#Sun Oct 22 16:47:57 BDT 2023
-base.0=G\:\\sohag\\project\\foxs_delivery\\foxs_delivery\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

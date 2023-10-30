@@ -68,7 +68,7 @@ INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\
 INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:1:1-35:12
 INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:1:1-35:12
 	package
-		ADDED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:2:5-42
+		ADDED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:2:5-40
 		INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml
 		INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -173,7 +173,7 @@ INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\
 		INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml
 		ADDED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml
 		INJECTED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml
-activity#com.quicktech.foxs_delivery.MainActivity
+activity#com.quicktech.mr_delivery.MainActivity
 ADDED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:8:9-28:20
 	android:launchMode
 		ADDED from G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:11:13-43

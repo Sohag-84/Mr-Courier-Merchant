@@ -1,4 +1,4 @@
 io/flutter/plugins/GeneratedPluginRegistrant.java
  io.flutter.plugins.GeneratedPluginRegistrant
-com/quicktech/foxs_delivery/BuildConfig.java
- com.quicktech.foxs_delivery.BuildConfig
+com/quicktech/mr_delivery/BuildConfig.java
+ com.quicktech.mr_delivery.BuildConfig

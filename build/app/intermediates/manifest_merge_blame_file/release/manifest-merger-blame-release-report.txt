@@ -1,13 +1,13 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.quicktech.foxs_delivery"
+3    package="com.quicktech.mr_delivery"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
+8        android:minSdkVersion="26"
 8-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="31" />
+9        android:targetSdkVersion="34" />
 9-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
@@ -22,119 +22,120 @@
 15-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:6:9-42
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.6.0] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
-17        android:icon="@mipmap/launcher_icon"
-17-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:7:9-45
-18        android:label="Mr Delivery" >
-18-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:5:9-36
-19        <activity
-19-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:8:9-28:20
-20            android:name="com.quicktech.foxs_delivery.MainActivity"
-20-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:9:13-41
-21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-21-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:13:13-163
-22            android:exported="true"
-22-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:10:13-36
-23            android:hardwareAccelerated="true"
-23-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:14:13-47
-24            android:launchMode="singleTop"
-24-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:11:13-43
-25            android:theme="@style/LaunchTheme"
-25-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:12:13-47
-26            android:windowSoftInputMode="adjustResize" >
-26-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:15:13-55
-27
-28            <!--
-29                 Specifies an Android theme to apply to this Activity as soon as
-30                 the Android process has started. This theme is visible to the user
-31                 while the Flutter UI initializes. After that, this theme continues
-32                 to determine the Window background behind the Flutter UI.
-33            -->
-34            <meta-data
-34-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:20:13-23:17
-35                android:name="io.flutter.embedding.android.NormalTheme"
-35-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:21:15-70
-36                android:resource="@style/NormalTheme" />
-36-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:22:15-52
-37
-38            <intent-filter>
-38-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:24:13-27:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:25:17-68
-39-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:25:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:26:17-76
-41-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:26:27-74
-42            </intent-filter>
-43        </activity>
-44        <!--
-45             Don't delete the meta-data below.
-46             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-47        -->
-48        <meta-data
-48-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:31:9-33:33
-49            android:name="flutterEmbedding"
-49-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:32:13-44
-50            android:value="2" />
-50-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:33:13-30
-51
-52        <provider
-52-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:11:9-20:20
-53            android:name="com.crazecoder.openfile.FileProvider"
-53-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:12:13-64
-54            android:authorities="com.quicktech.foxs_delivery.fileProvider.com.crazecoder.openfile"
-54-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:13:13-88
-55            android:exported="false"
-55-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
-56            android:grantUriPermissions="true" >
-56-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
-57            <meta-data
-57-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:53
-58                android:name="android.support.FILE_PROVIDER_PATHS"
-58-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
-59                android:resource="@xml/filepaths" />
-59-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:19:17-50
-60        </provider>
-61
-62        <activity
-62-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
-63            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-63-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
-64            android:exported="false"
-64-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
-65            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-65-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
-66
-67        <provider
-67-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
-68            android:name="net.nfet.flutter.printing.PrintFileProvider"
-68-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:9:13-71
-69            android:authorities="com.quicktech.foxs_delivery.flutter.printing"
-69-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:10:13-68
-70            android:exported="false"
-70-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
-71            android:grantUriPermissions="true" >
-71-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
-72            <meta-data
-72-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:53
-73                android:name="android.support.FILE_PROVIDER_PATHS"
-73-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
-74                android:resource="@xml/flutter_printing_file_paths" />
-74-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:19:17-50
-75        </provider>
-76
-77        <uses-library
-77-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-78            android:name="androidx.window.extensions"
-78-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-79            android:required="false" />
-79-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-80        <uses-library
-80-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-81            android:name="androidx.window.sidecar"
-81-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-82            android:required="false" />
-82-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-83    </application>
-84
-85</manifest>
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/launcher_icon"
+18-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:7:9-45
+19        android:label="Mr Delivery" >
+19-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:5:9-36
+20        <activity
+20-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:8:9-28:20
+21            android:name="com.quicktech.mr_delivery.MainActivity"
+21-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:9:13-41
+22            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+22-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:13:13-163
+23            android:exported="true"
+23-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:10:13-36
+24            android:hardwareAccelerated="true"
+24-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:14:13-47
+25            android:launchMode="singleTop"
+25-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:11:13-43
+26            android:theme="@style/LaunchTheme"
+26-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:12:13-47
+27            android:windowSoftInputMode="adjustResize" >
+27-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:15:13-55
+28
+29            <!--
+30                 Specifies an Android theme to apply to this Activity as soon as
+31                 the Android process has started. This theme is visible to the user
+32                 while the Flutter UI initializes. After that, this theme continues
+33                 to determine the Window background behind the Flutter UI.
+34            -->
+35            <meta-data
+35-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:20:13-23:17
+36                android:name="io.flutter.embedding.android.NormalTheme"
+36-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:21:15-70
+37                android:resource="@style/NormalTheme" />
+37-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:22:15-52
+38
+39            <intent-filter>
+39-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:24:13-27:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:25:17-68
+40-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:25:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:26:17-76
+42-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:26:27-74
+43            </intent-filter>
+44        </activity>
+45        <!--
+46             Don't delete the meta-data below.
+47             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+48        -->
+49        <meta-data
+49-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:31:9-33:33
+50            android:name="flutterEmbedding"
+50-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:32:13-44
+51            android:value="2" />
+51-->G:\sohag\project\foxs_delivery\foxs_delivery\android\app\src\main\AndroidManifest.xml:33:13-30
+52
+53        <provider
+53-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:11:9-20:20
+54            android:name="com.crazecoder.openfile.FileProvider"
+54-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:12:13-64
+55            android:authorities="com.quicktech.mr_delivery.fileProvider.com.crazecoder.openfile"
+55-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:13:13-88
+56            android:exported="false"
+56-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+57            android:grantUriPermissions="true" >
+57-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+58            <meta-data
+58-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:53
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+60                android:resource="@xml/filepaths" />
+60-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:19:17-50
+61        </provider>
+62
+63        <activity
+63-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+64            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+64-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+65            android:exported="false"
+65-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+66            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+66-->[:url_launcher_android] G:\sohag\project\foxs_delivery\foxs_delivery\build\url_launcher_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+67
+68        <provider
+68-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+69            android:name="net.nfet.flutter.printing.PrintFileProvider"
+69-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:9:13-71
+70            android:authorities="com.quicktech.mr_delivery.flutter.printing"
+70-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:10:13-68
+71            android:exported="false"
+71-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+72            android:grantUriPermissions="true" >
+72-->[:printing] G:\sohag\project\foxs_delivery\foxs_delivery\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+73            <meta-data
+73-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:17:13-19:53
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:18:17-67
+75                android:resource="@xml/flutter_printing_file_paths" />
+75-->[:open_filex] G:\sohag\project\foxs_delivery\foxs_delivery\build\open_filex\intermediates\library_manifest\release\AndroidManifest.xml:19:17-50
+76        </provider>
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] C:\Users\AR\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+84    </application>
+85
+86</manifest>

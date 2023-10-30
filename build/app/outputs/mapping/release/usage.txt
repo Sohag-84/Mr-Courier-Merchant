@@ -140,7 +140,6 @@ android.support.v4.media.MediaDescriptionCompat:
     public static final java.lang.String DESCRIPTION_KEY_MEDIA_URI
     public static final java.lang.String DESCRIPTION_KEY_NULL_BUNDLE_FLAG
 com.google.common.base.Predicates$OrPredicate
-com.quicktech.foxs_delivery.R$integer
 kotlinx.coroutines.channels.ActorKt
 androidx.viewpager.R$integer
 kotlin.concurrent.ThreadsKt
@@ -429,6 +428,7 @@ kotlin.collections.ArraysKt___ArraysJvmKt:
     public void <init>()
 androidx.core.text.util.LinkifyCompat$LinkifyMask
 androidx.media.MediaBrowserServiceCompatApi21$ResultWrapper
+com.quicktech.mr_delivery.R$string
 kotlinx.coroutines.internal.LocalAtomics_commonKt
 kotlinx.coroutines.channels.AbstractChannel$onReceive$1
 com.google.common.base.Ascii
@@ -608,10 +608,6 @@ com.google.common.collect.CompactHashMap$KeySetView
 androidx.customview.R$color
 androidx.media.MediaBrowserServiceCompat$MediaBrowserServiceImplApi28
 com.google.common.collect.FilteredEntrySetMultimap
-androidx.window.layout.WindowInfoTracker:
-    public static androidx.window.layout.WindowInfoTracker getOrCreate(android.content.Context)
-    public static void overrideDecorator(androidx.window.layout.WindowInfoTrackerDecorator)
-    public static void reset()
 com.google.common.util.concurrent.ForwardingFluentFuture
 com.google.common.collect.ImmutableSortedMap$1EntrySet
 kotlinx.coroutines.flow.FlowKt__ReduceKt$firstOrNull$$inlined$collectWhile$2
@@ -1164,7 +1160,6 @@ kotlinx.coroutines.CompletableJob$DefaultImpls
 androidx.media.session.MediaButtonReceiver$MediaButtonConnectionCallback
 com.google.common.graph.AbstractBaseGraph$IncidentEdgeSet$Directed$2
 androidx.core.app.NotificationCompat$BigTextStyle
-com.quicktech.foxs_delivery.BuildConfig
 androidx.core.app.ActivityCompat$PermissionCompatDelegate:
     public abstract boolean onActivityResult(android.app.Activity,int,int,android.content.Intent)
 kotlin.jvm.internal.CharSpreadBuilder
@@ -1222,6 +1217,7 @@ kotlinx.coroutines.channels.ChannelResult:
     public boolean equals(java.lang.Object)
     public final synthetic java.lang.Object unbox-impl()
     private final java.lang.Object holder
+com.quicktech.mr_delivery.R
 androidx.fragment.R$color
 kotlin.properties.PropertyDelegateProvider
 com.google.errorprone.annotations.CanIgnoreReturnValue
@@ -3729,7 +3725,6 @@ com.google.common.collect.SortedLists$KeyPresentBehavior$1
 com.google.common.base.CaseFormat$2
 androidx.fragment.app.FragmentContainer
 com.google.common.collect.Maps$EntrySet
-com.quicktech.foxs_delivery.R$layout
 com.google.errorprone.annotations.concurrent.LockMethod
 android.support.v4.os.ResultReceiver:
     public void <init>(android.os.Handler)
@@ -5032,6 +5027,7 @@ androidx.asynclayoutinflater.R$dimen
 androidx.media.MediaSessionManagerImplBase
 androidx.core.view.ViewCompat$FocusDirection
 com.google.common.collect.Iterables$7
+com.quicktech.mr_delivery.R$drawable
 com.google.common.collect.ForwardingMap$StandardValues
 com.google.common.collect.RangeMap
 kotlinx.coroutines.flow.EmptyFlow
@@ -5236,7 +5232,6 @@ androidx.core.view.WindowInsetsControllerCompat$Impl23:
 com.google.common.util.concurrent.AbstractExecutionThreadService$1
 androidx.media.MediaBrowserServiceCompat$MediaBrowserServiceImplApi21$1
 com.google.common.base.CharMatcher$Is
-com.quicktech.foxs_delivery.R$color
 com.google.common.collect.MapMakerInternalMap$SafeToArraySet
 kotlin.coroutines.ContinuationKt:
     private static final void resume(kotlin.coroutines.Continuation,java.lang.Object)
@@ -5562,6 +5557,7 @@ com.google.common.primitives.Bytes
 com.google.common.cache.LocalCache$1
 androidx.core.provider.FontsContractCompat
 com.google.common.collect.DescendingMultiset
+com.quicktech.mr_delivery.R$dimen
 kotlinx.coroutines.SelectJoinOnCompletion
 kotlin.collections.MapAccessorsKt
 com.google.common.collect.MapMakerInternalMap$Strength$1
@@ -5782,6 +5778,7 @@ com.google.common.io.BaseEncoding$SeparatedBaseEncoding
 com.google.common.primitives.SignedBytes$LexicographicalComparator
 kotlin.time.DurationUnitKt
 androidx.localbroadcastmanager.R
+com.quicktech.mr_delivery.R$attr
 androidx.versionedparcelable.VersionedParcelize
 androidx.fragment.app.FragmentTransitionCompat21$3
 androidx.lifecycle.DefaultLifecycleObserver
@@ -5811,6 +5808,7 @@ com.google.common.util.concurrent.Service
 com.google.common.collect.RegularImmutableAsList
 kotlinx.coroutines.selects.SelectClause2
 androidx.legacy.app.ActionBarDrawerToggle$DelegateProvider
+com.quicktech.mr_delivery.R$mipmap
 androidx.core.view.WindowInsetsAnimationCompat$Impl21$Impl21OnApplyWindowInsetsListener
 androidx.loader.app.LoaderManagerImpl
 androidx.loader.app.LoaderManager
@@ -5982,7 +5980,6 @@ com.google.common.collect.AbstractIterator$State
 com.google.common.reflect.TypeToken$3
 com.google.common.io.CharSource$ConcatenatedCharSource
 com.google.common.net.InetAddresses
-com.quicktech.foxs_delivery.R$drawable
 kotlinx.coroutines.debug.internal.DebugProbesKt
 androidx.fragment.app.FragmentManager$BackStackEntry
 com.google.common.collect.ForwardingSortedMultiset
@@ -6320,7 +6317,6 @@ android.support.v4.media.session.MediaSessionCompat$OnActiveChangeListener
 com.google.common.collect.ObjectArrays
 androidx.tracing.TraceApi29Impl
 com.google.errorprone.annotations.CompatibleWith
-com.quicktech.foxs_delivery.R$string
 androidx.core.view.WindowInsetsAnimationCompat$Impl21$Impl21OnApplyWindowInsetsListener$2
 kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$none$1
 com.google.common.io.FileBackedOutputStream$1
@@ -6759,7 +6755,6 @@ androidx.core.widget.PopupMenuCompat
 com.google.common.reflect.TypeToken$TypeCollector$ForwardingTypeCollector
 com.google.common.base.Splitter$5
 com.google.common.util.concurrent.CycleDetectingLockFactory$1
-com.quicktech.foxs_delivery.R$style
 kotlin.reflect.KTypeProjection$Companion
 android.support.v4.media.session.MediaSessionCompat:
     public void <init>(android.content.Context,java.lang.String)
@@ -7026,6 +7021,7 @@ androidx.fragment.app.FragmentTransitionCompat21
 kotlinx.coroutines.flow.FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1$1
 com.google.common.base.Supplier
 kotlinx.coroutines.channels.Channel$DefaultImpls
+com.quicktech.mr_delivery.R$layout
 javax.annotation.ParametersAreNonnullByDefault
 kotlinx.coroutines.internal.ThreadSafeHeap:
     public final void clear()
@@ -7472,7 +7468,6 @@ io.flutter.embedding.engine.plugins.shim.ShimRegistrar
 kotlin.collections.ArrayDeque$Companion
 kotlinx.coroutines.flow.FlowKt__TransformKt$filterIsInstance$$inlined$filter$1$2
 com.google.common.collect.MapMakerInternalMap$WriteThroughEntry
-com.quicktech.foxs_delivery.R$dimen
 androidx.collection.LruCache
 kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$distinctBy$1
 kotlin.reflect.KMutableProperty2
@@ -7485,6 +7480,7 @@ androidx.swiperefreshlayout.widget.CircleImageView$OvalShadow
 kotlin.jvm.Strictfp
 androidx.core.content.ContentResolverCompat
 androidx.lifecycle.viewmodel.R
+com.quicktech.mr_delivery.BuildConfig
 androidx.interpolator.view.animation.LinearOutSlowInInterpolator
 kotlinx.coroutines.internal.SegmentOrClosed
 androidx.lifecycle.ReportFragment
@@ -7629,11 +7625,9 @@ android.support.v4.media.MediaBrowserCompat$MediaBrowserImplBase$2
 androidx.core.app.NotificationCompat$DecoratedCustomViewStyle
 com.google.common.util.concurrent.AsyncCallable
 com.google.common.collect.CollectPreconditions
-com.quicktech.foxs_delivery.R$id
 androidx.viewpager.R$color
 io.flutter.plugins.urllauncher.UrlLauncher:
     private static final java.lang.String TAG
-com.quicktech.foxs_delivery.R$xml
 kotlin.internal.AccessibleLateinitPropertyLiteral
 kotlin.jvm.internal.ShortSpreadBuilder
 androidx.core.view.WindowInsetsControllerCompat$Impl20:
@@ -8358,6 +8352,7 @@ kotlin.time.AdjustedTimeMark
 androidx.fragment.app.DialogFragment
 com.google.common.base.Equivalence$Identity
 com.google.common.collect.MultimapBuilder$MultimapBuilderWithKeys$6
+com.quicktech.mr_delivery.R$styleable
 kotlinx.coroutines.channels.ArrayBroadcastChannel
 kotlinx.coroutines.flow.SharedFlowImpl$Emitter
 com.google.common.cache.LocalCache$AccessQueue
@@ -8692,6 +8687,7 @@ com.google.common.cache.CacheBuilderSpec$WriteDurationParser
 kotlinx.coroutines.flow.SubscribedFlowCollector
 com.google.common.collect.SortedLists$KeyAbsentBehavior$3
 com.google.common.reflect.Types$JavaVersion
+com.quicktech.mr_delivery.R$xml
 androidx.localbroadcastmanager.content.LocalBroadcastManager$BroadcastRecord
 kotlin.collections.ArraysKt___ArraysKt$withIndex$7
 kotlin.collections.jdk8.CollectionsJDK8Kt
@@ -8748,6 +8744,7 @@ kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$filterNotNullTo$3
 kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$zip$2
 io.flutter.plugin.common.PluginRegistry$PluginRegistrantCallback
 com.google.common.collect.TreeRangeSet$1
+com.quicktech.mr_delivery.R$id
 kotlin.collections.AbstractMutableSet
 androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionInfoCompat
 com.google.common.util.concurrent.CycleDetectingLockFactory$LockGraphNode
@@ -8800,10 +8797,6 @@ com.google.common.collect.AbstractSequentialIterator
 io.flutter.plugin.common.PluginRegistry$ViewDestroyListener
 com.google.common.primitives.Primitives
 kotlin.annotation.Retention
-androidx.window.layout.WindowMetricsCalculator:
-    public static androidx.window.layout.WindowMetricsCalculator getOrCreate()
-    public static void overrideDecorator(androidx.window.layout.WindowMetricsCalculatorDecorator)
-    public static void reset()
 com.google.common.primitives.ImmutableDoubleArray$1
 androidx.media.MediaBrowserServiceCompat$ConnectionRecord$1
 kotlin.reflect.KProperty
@@ -8876,7 +8869,6 @@ com.google.common.collect.HashMultiset
 androidx.coordinatorlayout.R
 com.google.common.reflect.TypeToken
 androidx.core.os.OperationCanceledException
-com.quicktech.foxs_delivery.R
 com.google.common.hash.Striped64
 kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$1
 android.support.v4.media.ParceledListSliceAdapterApi21
@@ -8965,6 +8957,7 @@ com.google.common.io.Files$FileByteSink
 androidx.core.view.accessibility.AccessibilityManagerCompat$TouchExplorationStateChangeListenerWrapper
 kotlin.LazyKt:
     private void <init>()
+com.quicktech.mr_delivery.R$style
 kotlinx.coroutines.flow.FlowKt__ZipKt$combine$$inlined$combineUnsafe$FlowKt__ZipKt$1$2
 androidx.core.content.res.ColorStateListInflaterCompat
 com.google.common.cache.RemovalCause$5
@@ -9439,7 +9432,6 @@ com.crazecoder.openfile.utils.MapUtil:
 kotlin.collections.FloatIterator
 kotlinx.coroutines.flow.FlowKt__CollectKt$launchIn$1
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2
-com.quicktech.foxs_delivery.R$styleable
 com.google.common.hash.AbstractNonStreamingHashFunction$ExposedByteArrayOutputStream
 com.google.common.cache.CacheBuilder$NullListener
 kotlin.io.ByteStreamsKt
@@ -10558,7 +10550,6 @@ androidx.arch.core.internal.FastSafeIterableMap:
     public java.lang.Object putIfAbsent(java.lang.Object,java.lang.Object)
     public java.util.Map$Entry ceil(java.lang.Object)
 com.google.common.cache.LocalCache
-com.quicktech.foxs_delivery.R$mipmap
 com.google.common.io.LineReader$1
 androidx.fragment.app.FragmentManagerImpl$2
 com.google.common.collect.AbstractMapBasedMultimap$2
@@ -10665,6 +10656,7 @@ kotlin.text.CharsKt__CharJVMKt:
     private static final boolean isLowSurrogate(char)
     public void <init>()
 androidx.fragment.app.FragmentManagerImpl$4
+com.quicktech.mr_delivery.R$color
 kotlinx.coroutines.CancellableContinuation:
     public abstract boolean isActive()
     public abstract boolean isCompleted()
@@ -10830,7 +10822,6 @@ com.google.common.hash.Murmur3_128HashFunction
 androidx.legacy.coreui.R$style
 net.nfet.flutter.printing.R$styleable
 com.google.common.cache.LocalCache$WeightedWeakValueReference
-com.quicktech.foxs_delivery.R$attr
 com.google.common.util.concurrent.ListenerCallQueue$Event
 kotlinx.coroutines.channels.ConflatedBroadcastChannel
 kotlinx.coroutines.flow.FlowKt__DelayKt$debounceInternal$1
@@ -10905,6 +10896,7 @@ kotlinx.coroutines.channels.AbstractSendChannel$TryOfferDesc
 com.google.common.collect.Multisets$5
 kotlin.UByteKt
 android.support.v4.media.MediaBrowserCompat$SubscriptionCallback$StubApi26
+com.quicktech.mr_delivery.R$integer
 androidx.core.util.TimeUtils
 kotlin.collections.unsigned.UArraysKt___UArraysKt$withIndex$1
 kotlinx.coroutines.test.TimedRunnableObsolete
@@ -11918,5 +11910,3 @@ androidx.core.content.res.ResourcesCompat:
     private static final java.lang.ThreadLocal sTempTypedValue
     private static final java.util.WeakHashMap sColorStateCaches
     private static final java.lang.Object sColorStateCacheLock
-io.flutter.plugin.common.BinaryMessenger$-CC
-io.flutter.plugin.platform.PlatformView$-CC
